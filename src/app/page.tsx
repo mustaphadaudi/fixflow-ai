@@ -16,21 +16,28 @@ export default function Home() {
           repair issues, and use AI to triage tenant maintenance reports faster.
         </p>
 
-        <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-          <a
-            href="/dashboard"
-            className="rounded-xl bg-cyan-400 px-6 py-3 font-semibold text-slate-950 transition hover:bg-cyan-300"
-          >
-            View Demo Dashboard
-          </a>
+       <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+  <a
+    href="/dashboard"
+    className="rounded-xl bg-cyan-400 px-6 py-3 font-semibold text-slate-950 transition hover:bg-cyan-300"
+  >
+    View Demo Dashboard
+  </a>
 
-          <a
-            href="/login"
-            className="rounded-xl border border-slate-700 px-6 py-3 font-semibold text-slate-200 transition hover:border-cyan-400 hover:text-cyan-300"
-          >
-            Sign In
-          </a>
-        </div>
+  <a
+    href="/login"
+    className="rounded-xl border border-slate-700 px-6 py-3 font-semibold text-slate-200 transition hover:border-cyan-400 hover:text-cyan-300"
+  >
+    Sign In
+  </a>
+
+  <a
+    href="/signup"
+    className="rounded-xl border border-slate-700 px-6 py-3 font-semibold text-slate-200 transition hover:border-cyan-400 hover:text-cyan-300"
+  >
+    Create Account
+  </a>
+</div>
 
         <div className="mt-16 grid w-full gap-6 sm:grid-cols-3">
           <div className="rounded-2xl border border-slate-800 bg-slate-900/70 p-6 text-left shadow-lg">
