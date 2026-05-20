@@ -1,13 +1,11 @@
+import AppShell from "@/components/layout/AppShell";
+
 export default function NewIssuePage() {
   return (
-    <main className="min-h-screen bg-slate-950 text-white">
-      <div className="mx-auto max-w-5xl px-6 py-8">
+    <AppShell>
+      <div>
         <header className="border-b border-slate-800 pb-8">
-          <a href="/issues" className="text-sm font-medium text-cyan-300">
-            ← Back to issues
-          </a>
-
-          <h1 className="mt-4 text-3xl font-bold tracking-tight md:text-4xl">
+          <h1 className="text-3xl font-bold tracking-tight md:text-4xl">
             Add Maintenance Issue
           </h1>
 
@@ -160,6 +158,6 @@ export default function NewIssuePage() {
           </aside>
         </section>
       </div>
-    </main>
+    </AppShell>
   );
 }
