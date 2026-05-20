@@ -1,3 +1,5 @@
+import AppShell from "@/components/layout/AppShell";
+
 const properties = [
   {
     name: "Flat 2, Mavis Close",
@@ -31,15 +33,11 @@ const properties = [
 
 export default function PropertiesPage() {
   return (
-    <main className="min-h-screen bg-slate-950 text-white">
-      <div className="mx-auto max-w-7xl px-6 py-8">
+    <AppShell>
+      <div>
         <header className="flex flex-col gap-6 border-b border-slate-800 pb-8 md:flex-row md:items-center md:justify-between">
           <div>
-            <a href="/dashboard" className="text-sm font-medium text-cyan-300">
-              ← Back to dashboard
-            </a>
-
-            <h1 className="mt-4 text-3xl font-bold tracking-tight md:text-4xl">
+            <h1 className="text-3xl font-bold tracking-tight md:text-4xl">
               Properties
             </h1>
 
@@ -115,6 +113,6 @@ export default function PropertiesPage() {
           ))}
         </section>
       </div>
-    </main>
+    </AppShell>
   );
 }
