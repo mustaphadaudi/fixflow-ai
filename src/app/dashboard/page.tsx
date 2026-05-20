@@ -87,8 +87,8 @@ export default function DashboardPage() {
         <header className="flex flex-col gap-6 border-b border-slate-800 pb-8 md:flex-row md:items-center md:justify-between">
           <div>
             <h1 className="text-3xl font-bold tracking-tight md:text-4xl">
-             Maintenance Dashboard
-            </h1>
+              Maintenance Dashboard
+</h1>
 
             <p className="mt-3 max-w-2xl text-slate-400">
               Track property maintenance reports, monitor urgent issues, and
